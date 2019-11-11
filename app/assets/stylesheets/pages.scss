@@ -11,3 +11,28 @@
   margin: auto;
   margin-top: 50px
 }
+
+.header {
+  text-align: center;
+  background: lightgray;
+  color: white !important;
+  font-size: 10px;
+}
+
+.grid {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+  justify-content: space-around;
+
+}
+.card {
+  flex: 0 0 30%;                       /* don't grow, don't shrink, width */
+  height: 100px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px
+}

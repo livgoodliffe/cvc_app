@@ -1,8 +1,12 @@
 $light-purple: #6579FF;
 $purple: #424CEF;
+$soft: #65d0e4;
+$hard: #82c8bd;
 
 @import "pages"; /* Will import `_pages.scss` */
 @import "logo";
 @import "text";
 @import "buttons";
+@import "cards";
+@import "icons";
 
