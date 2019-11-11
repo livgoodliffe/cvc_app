@@ -6,6 +6,10 @@ class PagesController < ApplicationController
   end
 
   def wheel
+
+    @hardelements = Hardelement.all
+    @softelements = SoftElement.all
+
   end
 
 end

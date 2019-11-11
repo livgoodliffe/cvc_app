@@ -1,17 +1,5 @@
 class ElementsController < ApplicationController
 
-  HARDELEMENTS = {
-    1 => { name: "public realm" },
-    2 => { name: "transport" },
-    3 => { name: "community" },
-    4 => { name: "retail" },
-    5 => { name: "commercial" },
-    6 => { name: "health & wellbeing" },
-    7 => { name: "education" },
-    8 => { name: "recreation & entertainment" },
-    9 => { name: "residential" }
-  }
-
   SOFTELEMENTS = {
     1 => { name: "people" },
     2 => { name: "place" },
