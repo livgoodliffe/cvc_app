@@ -6,13 +6,10 @@ Rails.application.routes.draw do
   get 'pages/about', as: :about
   get 'pages/hardelements', as: :hardelements
 
-  get 'project/index'
+  resources :projects, only: [:create, :new, :show]
 
   get 'information/index'
 
   get 'hardelements', to: 'hardelements#index'
 
-
-
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

@@ -3,3 +3,11 @@
     <li><%= element[:name] %></li>
   <% end %>
 </ul>
+
+
+<!-- each to link to its own page -->
+
+<!-- app/views/restaurants/index.html.erb -->
+<% @restaurants.each do |restaurant| %>
+  <%= link_to restaurant.name, restaurant_path(restaurant) %>
+<% end %>
