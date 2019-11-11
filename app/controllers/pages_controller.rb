@@ -5,7 +5,7 @@ class PagesController < ApplicationController
   def about
   end
 
-  def hardelements
+  def wheel
   end
 
 end

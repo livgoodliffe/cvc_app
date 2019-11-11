@@ -6,7 +6,9 @@ Rails.application.routes.draw do
   get 'pages/about', as: :about
   get 'pages/hardelements', as: :hardelements
 
-  resources :projects, only: [:create, :new, :show]
+  resources :projects, only: [:index, :create, :new, :show]
+
+  resources :elements, only: [:index, :show]
 
   get 'information/index'
 
