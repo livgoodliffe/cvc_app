@@ -1,12 +1,20 @@
 <h2>Hard Elements:</h2>
 
-<% @hardelements.each do |id, element| %>
+<div class="grid">
+  <% @hardelements.each do |id, element| %>
+    <div class="card card-hard">
 
-  <div class="card card-hard">
-    <h4 class="card-title"><%= element[:name] %></h4>
-  </div>
+      <div>
+        <%= image_tag element[:whiteicon], class: 'whiteicon' %>
+      </div>
 
-<% end %>
+      <div>
+        <h4 class="card-title"><%= element[:name] %></h4>
+      </div>
+
+    </div>
+  <% end %>
+</div>
 
 <%= link_to 'Back to Wheel', "pages/wheel" %>
 

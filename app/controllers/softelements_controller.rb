@@ -17,9 +17,6 @@ class SoftelementsController < ApplicationController
   end
 
   def show
-    @softelements = SOFTELEMENTS
-
     @softelement = Softelement.find(params[:id])
-
   end
 end
