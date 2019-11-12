@@ -6,10 +6,10 @@ ruby '2.6.3'
 gem 'rails', '~> 6.0.1'
 gem 'pg'
 gem 'puma', '~> 4.1'
-=gem 'sass-rails', '>= 6'
-=gem 'webpacker', '~> 4.0'
-=gem 'turbolinks', '~> 5'
-=gem 'jbuilder', '~> 2.7'
+gem 'sass-rails', '>= 6'
+gem 'webpacker', '~> 4.0'
+gem 'turbolinks', '~> 5'
+gem 'jbuilder', '~> 2.7'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -50,3 +50,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'autoprefixer-rails'
 gem 'font-awesome-sass', '~> 5.6.1'
 gem 'simple_form'
+gem 'dotenv-rails', groups: [:development, :test]
+
