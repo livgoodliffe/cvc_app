@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
+
   def home
   end
 
@@ -6,6 +7,8 @@ class PagesController < ApplicationController
   end
 
   def wheel
+
+    @project = Project.find(params[:id])
 
     @hardelements = Hardelement.all
     @softelements = Softelement.all
